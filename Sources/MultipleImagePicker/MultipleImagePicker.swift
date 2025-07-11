@@ -28,7 +28,7 @@ public struct PickedMedia {
 }
 
 
-public final class PickerManager: NSObject  {
+public final class NPPickerManager: NSObject  {
     
     //MARK: - Private variables
     
@@ -40,7 +40,7 @@ public final class PickerManager: NSObject  {
     
     //MARK: - Initializer
     
-    public init(mediaType: MediaType, maxSelection: Int) {
+    public init(mediaType: MediaType = .image, maxSelection: Int = 1) {
         self.mediaType = mediaType
         self.maxSelection = maxSelection
     }
@@ -91,7 +91,7 @@ public final class PickerManager: NSObject  {
 
 //MARK: - PHPickerViewControllerDelegate methods
 
-extension PickerManager: PHPickerViewControllerDelegate {
+extension NPPickerManager: PHPickerViewControllerDelegate {
     
     @MainActor func pickerDidCancel(_ picker: PHPickerViewController) {
         picker.dismiss(animated: true, completion: nil)
