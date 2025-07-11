@@ -53,11 +53,11 @@ self.picker?.presentPicker(from: self) { [weak self] pickedItems in
 - The result is an array of PickedMedia objects — easily usable in a collection view or wherever you want.
 - For video type, the array will include both a thumbnail image and the video URL.
 
-📸 Preview
-<p align="center"> <img src="Assets/demo.gif" alt="MultipleImagePicker Demo" width="450"> </p>
+## 📸 Preview
+<p align="center"> <img src="Assets/Preview.gif" alt="MultipleImagePicker Demo" height="450" width="250"> </p>
 
 
-📦 Installation Guide
+## 📦 Installation Guide
 
 ✅ Add via Swift Package Manager
 1. Open your Xcode project.
