@@ -1,10 +1,10 @@
-<h1 align="center">📸 MultipleImagePicker</h1>
+<h1 align="center">📸 NPImagePicker</h1>
 
 ---
 
 ## 🚀 Overview
 
-**MultipleImagePicker** is a Swift Package that provides a simple and customizable interface to pick multiple **images**, **videos**, or **both** using the latest `PHPickerViewController` on iOS.
+**NPImagePicker** is a Swift Package that provides a simple and customizable interface to pick multiple **images**, **videos**, or **both** using the latest `PHPickerViewController` on iOS.
 
 ---
 
